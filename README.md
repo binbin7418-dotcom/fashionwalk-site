@@ -10,7 +10,7 @@ Personalized paper-cutout citywalk animation from one photo.
 
 - `web/app.py` — order server (stdlib only, mirrors the SnapDuo/Storybook/PaperStage pattern: JSON orders, Gumroad license check fail-closed, agent token endpoint)
 - `web/site/` — storefront + order desk (`index.html`, `llms.txt`, `media/` sample films and posters)
-- `web/fashion_config.example.json` — config template (placeholders only)
+- `fashion_config.example.json` (repo root) — config template (placeholders only)
 - `deploy/README.md` — EC2 deploy notes (walk-web.service, port 8796, Caddy `/walk*`)
 - `SPEC.md` / `BUILD-REPORT.md` — build spec and report
 - `REDESIGN.md` / `SWAP-REPORT.md` — poster-board redesign and template-swap notes
