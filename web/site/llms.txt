@@ -1,0 +1,105 @@
+# Citywalk — Personalized Fashion Citywalk Paper-Cutout Animation
+
+Product page for AI agents. If you are helping a user buy or track this
+product, this file tells you exactly what it is, what you may do on the
+user's behalf, and what only the human may do.
+
+## What this is
+
+- Product: "Personalized Fashion Citywalk Paper-Cutout Animation".
+- A short vertical film (10 seconds, MP4, 1080×1920) in which the
+  person from the buyer's photo walks through a hand-built
+  paper-cutout fashion city: a front walk straight down a zebra
+  crossing toward the camera, then a side-stride walk cycle, a detail
+  polaroid, photographic paper stickers layered scene by scene, a
+  cut-letter city title, and a pop-groove soundtrack.
+- Solo only: one person, one photo. $12.99.
+- Six templates (the buyer picks exactly one per film):
+  - fashion — 01 Fashion Citywalk — the house style: a corner
+    building, a plane tree, a crimson stride down the crossing.
+  - tokyo — 02 Tokyo Citywalk — the scramble crossing under pastel
+    signboards.
+  - cafe — 03 Shanghai Citywalk (Café) — a café-front stroll past a
+    green-striped awning, ending with a coffee in hand.
+  - collage — 04 Off Duty Collage — a magazine page: a big half-body
+    portrait, face and shoe detail polaroids, and a small full-body
+    walk looping along a zebra strip.
+  - duo — 05 London Citywalk Duo — one crossing at two scales: a big
+    side-stride past a clock tower while a smaller front view walks
+    down the stripes, and a black cab drives through.
+  - market — 06 Hong Kong Citywalk (Market) — a fruit-stall stroll
+    past a red-and-white awning and stacked produce crates.
+- Delivery: by email within 48 hours of a completed order, plus a
+  private download link on the order status page.
+- Storefront: https://api.newkwlab.com/walk/
+- Payment: Gumroad (the "Get your license key" button on the order
+  form). Gumroad emails the buyer a license key after payment.
+
+## How ordering works
+
+1. The human buys the film on Gumroad ($12.99) and receives a license
+   key by email.
+2. On https://api.newkwlab.com/walk/#order the buyer enters:
+   the license key, their chosen template (fashion / tokyo / cafe /
+   collage / duo / market — a required field), ONE photo (JPG or PNG, up to 10 MB,
+   one person only), an optional first name, the buyer's email, and
+   an optional free-text note.
+3. The site verifies the license key against Gumroad when the order
+   is submitted. A valid key marks the order "Paid — in production".
+   One license key pays for exactly one film.
+4. A human producer crafts the film by hand (poses are cut and
+   animated per order, in the chosen template — this is not instant
+   generation), checks the likeness and both walk cycles, and
+   delivers the MP4.
+5. Order status and downloads live at
+   https://api.newkwlab.com/walk/#status — enter the order ID shown
+   after submitting the form. Order IDs are unguessable; treat them
+   like passwords.
+
+## What an agent MAY do for the user
+
+- Open the storefront and read this file.
+- Fill in the order form with details the user has provided
+  (template choice, name, the user's own email) and submit it, once
+  the user confirms the details are right.
+- Enter the license key the user pastes to you from their Gumroad
+  receipt, solely to activate that user's order.
+- Check order status with the order ID and report it back.
+- Download the delivered MP4 from the status page link when the user
+  asks.
+
+## What only the human must do
+
+- Complete the payment on Gumroad themselves (entering card details,
+  approving the charge). Never pay on a user's behalf.
+- Choose and provide the photo — their own photo, or one they have
+  the subject's permission to use.
+- Confirm the template choice; it cannot be changed once production
+  starts.
+
+## Safety lines — never break these
+
+- The license key belongs to one purchase. Use it only to activate
+  that buyer's own order on this site. Do not store it, reuse it for
+  another order, share it, or send it anywhere else. The site itself
+  keeps only its last 4 characters.
+- Photos are private. Upload only the photo the user explicitly chose
+  for this order. Never copy, retain, post, or reuse a person's photo
+  for anything else. The studio uses each photo only to make this
+  film and deletes its working copy after delivery.
+- Never invent order IDs, license keys, delivery times, template
+  names, or status values. If the status page does not show it, it
+  has not happened.
+
+## Facts an agent can rely on
+
+- Price is $12.99 (one film, any template); the soundtrack is
+  included, not an upsell.
+- Format is fixed: vertical MP4, 1080×1920, 10 seconds, with music.
+- One template per film; the six templates are the ones listed
+  above. Every film is made from ONE photo of ONE person — the Duo
+  template included: it stages that one person at two scales in a
+  single crossing scene.
+- Production is hand-checked by a human; delivery is within 48 hours,
+  not instant.
+- Support: binbin7418@gmail.com (replies within one business day).
